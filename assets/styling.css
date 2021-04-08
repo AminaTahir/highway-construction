@@ -1,0 +1,81 @@
+
+    /* for whole body */
+*{   
+    font-family: "soleil",sans-serif;
+    background-color: white;
+    color:black;
+} 
+header{
+    display:flex;
+}
+    /* for navigation bar  */
+.nav-right{
+    float:right;
+    text-align: right;
+    padding: 20px;
+    
+  
+ }
+ .nav-right a{
+     margin-right: 10px;
+     text-decoration: none;
+    
+     
+ }
+ .nav-right a:hover{
+     color:#f1730b;
+ }
+ 
+.nav-mid{
+    text-align: center;
+    padding: 20px;
+    
+}
+.nav-mid h3{
+    
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 2px;
+}  
+           /* for footer */
+footer .footer-rights{
+    padding: 20px;
+    text-align: center;
+    color:white;
+    font-size: 12px;
+    background-color: black;
+    letter-spacing: 2px;
+    text-decoration: none;
+} 
+     /* for services */
+.service{
+    display: flex;
+    width: 100%;
+}
+.slider{
+  
+    text-align: center;
+    overflow-x: hidden;
+    width: 100%;
+}
+.slider img{
+    width: 24%;
+} 
+     /* for about us */
+.Abouts{
+    width:100%;
+    font-size: 12px;
+    display: flex;
+    margin-top: 40px;
+}
+      /* for list */
+.list{
+    text-align: center;
+    list-style: none;
+    margin-bottom: 40px;
+    margin-top: 40px;
+} 
+
+h1{
+    text-align: center;
+}
