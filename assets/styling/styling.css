@@ -1,3 +1,4 @@
+                                              /* main page  */
 .bu {
     display: none;
 
@@ -11,8 +12,12 @@
 } 
 header{
     display:flex;
+    border-bottom: 6px solid black;
 }
     /* for navigation bar  */
+.nav{
+    width: 100%;
+}
 .nav-right{
     float:right;
     text-align: right;
@@ -41,16 +46,34 @@ header{
     font-weight: bold;
     letter-spacing: 2px;
 }  
+         /* for main pic*/
+.pic{
+  
+    
+    margin-top: 50px;
+    padding: 20px;
+
+}
+.pic img{
+    height:50%;
+    width:100%;
+
+}
            /* for footer */
-footer .footer-rights{
+ .footer-rights{
     padding: 20px;
     text-align: center;
-    color:white;
-    font-size: 12px;
-    background-color: black;
+    color:black;
+    font-size: 20px;
     letter-spacing: 2px;
     text-decoration: none;
 } 
+.footer{
+    padding: 20px;
+    text-align: center;
+    color:black;
+    text-decoration: none;
+}
      /* for services */
 .service{
     display: flex;
@@ -61,23 +84,22 @@ footer .footer-rights{
     text-align: center;
     overflow-x: hidden;
     width: 100%;
+    padding: 10PX;
 }
 .slider img{
-    width: 24%;
+  
+    width:100%; 
+    height:50%;
+
 } 
-     /* for about us */
-.Abouts{
-    width:100%;
-    font-size: 12px;
-    display: flex;
-    margin-top: 40px;
-}
-      /* for list */
+
+    /* for list */
 .list{
     text-align: center;
     list-style: none;
     margin-bottom: 40px;
     margin-top: 40px;
+    font-size: 20px;
 } 
 
 h1{
@@ -93,4 +115,13 @@ h1{
     
     }
 
+}
+                                 /* for about us page  */
+.Abouts{
+    width:100%;
+    font-size: 20px;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    
 }
